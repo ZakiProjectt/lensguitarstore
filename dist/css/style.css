@@ -38,10 +38,6 @@ img {
     width: 100%;
 }
 
-.body {
-    margin: 0px;
-    padding: 0px;
-}
 body {
     color: var(--text-color)
 }
@@ -122,7 +118,7 @@ header.shadow #search-icon {
     right: 0;
     left: 0;
     background: var(--bg-color);
-    box-shadow: 4px 4px 20px rgb (15 54 55 / 10%);
+    box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
     border: 1px solid var(--main-color);
     border-radius: 0.5rem;
     clip-path: circle(0% at 100% 0%);
@@ -130,7 +126,7 @@ header.shadow #search-icon {
 
 .search-box.active {
     clip-path: circle(144% at 100% 0%);
-    transition: 0.3%;
+    transition: 0.3s;
 }
 
 .search-box input {
@@ -149,7 +145,7 @@ header.shadow #search-icon {
     min-height: 755px;
     display: flex;
     align-items: center;
-    background: url('img/background-home.jpg');
+    background: url('../../img/background-home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -327,7 +323,7 @@ a {
     flex-direction: column;
     width: 300px;
     padding: 15px;
-    border: 1px solid rgb(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.08);
     border-radius: 10px;
     margin: 0px 6px;
     position: relative;
